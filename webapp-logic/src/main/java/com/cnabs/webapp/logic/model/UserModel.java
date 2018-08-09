@@ -1,8 +1,8 @@
 package com.cnabs.webapp.logic.model;
 
 public class UserModel {
-    public String name;
-    public Integer age;
+    private String name;
+    private Integer age;
 
     public String getName(){
         return  this.name;
@@ -13,7 +13,7 @@ public class UserModel {
     }
 
     public Integer getAge(){
-        return this.getAge();
+        return this.age;
     }
 
     public void setAge(Integer age){

@@ -1,10 +1,10 @@
 package com.cnabs.webapp.logic.service;
 
 import com.cnabs.webapp.logic.model.UserModel;
+import org.springframework.stereotype.Service;
 
+@Service
 public class UserService {
-    private UserModel userModel;
-
     public UserModel getUserModel(){
         UserModel userModel=new UserModel();
         userModel.setName("llj");
